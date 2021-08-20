@@ -1,7 +1,13 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+import IndexRoutes from "./helper/routes";
 
 const App = () => {
-    return <div>Hello World!</div>;
+    return (
+        <Router>
+            <IndexRoutes />
+        </Router>
+    );
 };
 
 export default App;
