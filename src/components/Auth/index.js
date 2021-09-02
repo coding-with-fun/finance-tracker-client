@@ -16,11 +16,6 @@ const AuthComponent = ({ flag }) => {
             >
                 Home
             </Link>
-            {flag ? (
-                <Link to="/signin">Sign In</Link>
-            ) : (
-                <Link to="/signup">Sign Up</Link>
-            )}
         </div>
     );
 };
