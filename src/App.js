@@ -5,7 +5,9 @@ import IndexRoutes from "./helper/routes";
 const App = () => {
     return (
         <Router>
-            <IndexRoutes />
+            <div className="w-screen h-screen">
+                <IndexRoutes />
+            </div>
         </Router>
     );
 };
